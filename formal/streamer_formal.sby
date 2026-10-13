@@ -1,0 +1,14 @@
+[options]
+mode prove
+depth 20
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv matrix_streamer_formal.v streamer_formal.sv
+prep -top streamer_formal
+
+[files]
+/mnt/c/Users/Ayush/OneDrive/Documents/Project/systolic_array/formal/matrix_streamer_formal.v
+/mnt/c/Users/Ayush/OneDrive/Documents/Project/systolic_array/formal/streamer_formal.sv

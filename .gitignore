@@ -1,0 +1,19 @@
+# Simulation outputs
+sim/*.vvp
+sim/tb_array
+sim/tb_matrix_streamer
+sim/tb_systolic_array
+sim/tb_systolic_matmul
+
+# Compiled binaries
+array_compile
+
+# Formal verification run artifacts
+formal/pe_formal/
+formal/streamer_formal/
+
+# Editor and OS files
+.vscode/
+*.swp
+*~
+.DS_Store
