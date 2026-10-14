@@ -10,5 +10,5 @@ read -formal -sv systolic_pe.sv pe_formal.sv
 prep -top pe_formal
 
 [files]
-/mnt/c/Users/Ayush/OneDrive/Documents/Project/systolic_array/rtl/systolic_pe.sv
-/mnt/c/Users/Ayush/OneDrive/Documents/Project/systolic_array/formal/pe_formal.sv
+../rtl/systolic_pe.sv
+pe_formal.sv
